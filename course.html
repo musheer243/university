@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniersity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+
+    <!---Our Courses content-->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, quas.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermidiate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quas! Saepe quod ipsa eos placeat, suscipit, iste
+            quaerat a enim, reprehenderit voluptatum ratione molestias rem?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quas! Saepe quod ipsa eos placeat, suscipit, iste
+            quaerat a enim, reprehenderit voluptatum ratione molestias rem?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quas! Saepe quod ipsa eos placeat, suscipit, iste
+            quaerat a enim, reprehenderit voluptatum ratione molestias rem?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- facilities section-->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+        repudiandae!
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse
+            qui, praesentium aperiam error magnam!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" />
+          <h3>Largest Play ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse
+            qui, praesentium aperiam error magnam!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" />
+          <h3>Tasty And Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse
+            qui, praesentium aperiam error magnam!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eum
+        sunt a cumque <br />neque fugit explicabo perferendis molestias
+        reprehenderit cupiditate?
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f" id="fb"></i>
+        <i class="fa-brands fa-twitter" id="tw"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> By Bilal Khan</p>
+    </section>
+
+    <!-- this script is for toggle menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
