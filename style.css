@@ -524,6 +524,7 @@ nav .fa-solid{
 @media(max-width: 720px){
     .sub-header h1{
         font-size: 24px;
+        margin-top: 100px;
     }
 }
 
